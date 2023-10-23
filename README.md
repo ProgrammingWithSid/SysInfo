@@ -8,11 +8,10 @@ A robust application to send the system health to the required server to check f
 
 
 * Place the Collector.py files in the targeted system (Change the URL path to hosted server URL)
-
+* python manage.py makemigrations
+* python manage.py migrate
 * Start the Django Server by below commands 
-
 * python manage.py runserver
-
 * Start the Collector file in the targeted system 
 
 
